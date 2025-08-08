@@ -1,5 +1,113 @@
 {
-    "programs" : [
-        
-    ]
+  "programs": [
+    {
+      "title": "Développement Web",
+      "desc": "Formation complète pour devenir développeur web frontend et backend.",
+      "duration": "6 mois",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+      ]
+    },
+    {
+      "title": "Data Science",
+      "desc": "Apprenez à manipuler les données, faire de l'analyse et du machine learning.",
+      "duration": "4 mois",
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Machine Learning",
+        "Visualisation de données"
+      ]
+    },
+    {
+      "title": "Cybersécurité",
+      "desc": "Maîtrisez les concepts et outils pour protéger les systèmes informatiques.",
+      "duration": "3 mois",
+      "skills": [
+        "Sécurité réseau",
+        "Cryptographie",
+        "Tests d'intrusion",
+        "Gestion des risques"
+      ]
+    },
+    {
+      "title": "Design UX/UI",
+      "desc": "Apprenez à concevoir des interfaces utilisateurs ergonomiques et attractives.",
+      "duration": "5 mois",
+      "skills": [
+        "Recherche utilisateur",
+        "Prototypage",
+        "Wireframing",
+        "Adobe XD",
+        "Figma"
+      ]
+    },
+    {
+      "title": "Administration Systèmes",
+      "desc": "Formation pour gérer et maintenir des systèmes informatiques et réseaux.",
+      "duration": "6 mois",
+      "skills": [
+        "Linux",
+        "Windows Server",
+        "Virtualisation",
+        "Sécurité système",
+        "Scripts Shell"
+      ]
+    },
+    {
+      "title": "Marketing Digital",
+      "desc": "Maîtrisez les stratégies de marketing sur les réseaux sociaux et moteurs de recherche.",
+      "duration": "4 mois",
+      "skills": [
+        "SEO",
+        "Google Ads",
+        "Content Marketing",
+        "Analytics",
+        "Email Marketing"
+      ]
+    },
+    {
+      "id": "689d",
+      "titre": "nkjnkjjkl",
+      "description": "jnkjn,kljl",
+      "duree": "jl,,klk",
+      "competences": [
+        "jkjkklkkmkl"
+      ]
+    },
+    {
+      "id": "2526",
+      "titre": "jnjnkj,klkmkl",
+      "description": "j,kmmkoook",
+      "duree": "jj,lkkkl,kl",
+      "competences": [
+        "lklklljk",
+        "hihuiioio",
+        "uuuu"
+      ]
+    },
+    {
+      "id": "c905",
+      "title": "jnnkjlnn",
+      "desc": "nkjl,njl",
+      "duration": "nnknj",
+      "skills": [
+        "jnkkkkkkkjn"
+      ]
+    },
+    {
+      "id": "0fef",
+      "title": "",
+      "desc": "",
+      "duration": "",
+      "skills": [
+        ""
+      ]
+    }
+  ]
 }
