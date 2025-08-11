@@ -10,7 +10,8 @@
         "JavaScript",
         "PHP",
         "MySQL"
-      ]
+      ],
+      "id": "9863"
     },
     {
       "title": "Data Science",
@@ -22,7 +23,8 @@
         "NumPy",
         "Machine Learning",
         "Visualisation de données"
-      ]
+      ],
+      "id": "430f"
     },
     {
       "title": "Cybersécurité",
@@ -33,7 +35,8 @@
         "Cryptographie",
         "Tests d'intrusion",
         "Gestion des risques"
-      ]
+      ],
+      "id": "9561"
     },
     {
       "title": "Design UX/UI",
@@ -45,7 +48,8 @@
         "Wireframing",
         "Adobe XD",
         "Figma"
-      ]
+      ],
+      "id": "b2f3"
     },
     {
       "title": "Administration Systèmes",
@@ -57,57 +61,8 @@
         "Virtualisation",
         "Sécurité système",
         "Scripts Shell"
-      ]
-    },
-    {
-      "title": "Marketing Digital",
-      "desc": "Maîtrisez les stratégies de marketing sur les réseaux sociaux et moteurs de recherche.",
-      "duration": "4 mois",
-      "skills": [
-        "SEO",
-        "Google Ads",
-        "Content Marketing",
-        "Analytics",
-        "Email Marketing"
-      ]
-    },
-    {
-      "id": "689d",
-      "titre": "nkjnkjjkl",
-      "description": "jnkjn,kljl",
-      "duree": "jl,,klk",
-      "competences": [
-        "jkjkklkkmkl"
-      ]
-    },
-    {
-      "id": "2526",
-      "titre": "jnjnkj,klkmkl",
-      "description": "j,kmmkoook",
-      "duree": "jj,lkkkl,kl",
-      "competences": [
-        "lklklljk",
-        "hihuiioio",
-        "uuuu"
-      ]
-    },
-    {
-      "id": "c905",
-      "title": "jnnkjlnn",
-      "desc": "nkjl,njl",
-      "duration": "nnknj",
-      "skills": [
-        "jnkkkkkkkjn"
-      ]
-    },
-    {
-      "id": "0fef",
-      "title": "",
-      "desc": "",
-      "duration": "",
-      "skills": [
-        ""
-      ]
+      ],
+      "id": "2936"
     }
   ]
 }
