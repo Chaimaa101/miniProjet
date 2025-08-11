@@ -7,50 +7,49 @@
     <title>Programmes</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-   
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
 
     <section id="programs">
-
         <button id="show-form">Add Program</button>
-        <form id="program-form" class="program-form contact-form" >
+        <form id="program-form" class="program-form contact-form">
             <div class="inputs">
                 <label for="title">Program Title:</label>
-                <input type="text" name="title" id="title">
+                <input type="text" name="title" id="title" required>
             </div>
             <div class="inputs">
                 <label for="description"> Program description:</label>
-                <textarea type="text" name="description" id="description"></textarea>
+                <textarea type="text" name="description" id="description" required></textarea>
             </div>
             <div class="inputs">
                 <label for="duree">Program duration:</label>
-                <input type="text" name="duration" id="duration">
+                <input type="text" name="duration" id="duration" placeholder="e.g., 12 weeks" required>
             </div>
             <div class="inputs">
                 <label for="skils">Skills:</label>
-                <input type="text" name="skills" id="skills">
+                <input type="text" name="skills" id="skills" placeholder="e.g., HTML, CSS, JavaScript" required>
             </div>
             <button type="submit">Ajouter</button>
         </form>
         <div class="cantainer">
-        <h2>All programs</h2>
+            <h2>All programs</h2>
 
-<div id="programs-container">
+            <div id="programs-container">
 
-<div class="value-card">
-   
-    </div>
-    
-</div>
+                <div class="value-card">
 
+                </div>
 
+            </div>
         </div>
-</div>
+        </div>
     </section>
- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+ <footer>
+        <span>© 2025 Hackeuse-Digital. All rights reserved.</span>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
 </body>
 </main>

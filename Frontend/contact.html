@@ -1,74 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .contact-method {
+      margin: 2rem 0;
+    }
+
+    .contact-method .details {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .contact-method .details p {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      color: #333;
+      font-size: 1.1rem;
+      margin: 0;
+    }
+
+    .contact-method .details p i {
+      font-size: 1.2rem;
+      width: 1.5rem;
+      text-align: center;
+      color: #178592;
+    }
+
+    .contact-method .details p:first-child i {
+      color: #25D366;
+    }
+
+    .contact-method .details p:nth-child(2) i {
+      color: #D44638;
+    }
+
+    .contact-method .details p:nth-child(3) i {
+      color: #FF5A5F;
+    }
+
+    .contact-method .details>p:last-of-type {
+      margin-top: 1rem;
+      font-weight: 600;
+      color: #178592;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .social-icons a {
+      color: white;
+      background: #178592;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .social-icons a:hover {
+      transform: translateY(-3px);
+    }
+
+    .social-icons i {
+      font-size: 1.2rem;
+    }
+
+    .social-icons a:nth-child(1) {
+      background: #3b5998;
+    }
+
+    .social-icons a:nth-child(2) {
+      background: #f33e60;
+    }
+
+    .social-icons a:nth-child(3) {
+      background: #0077b5;
+    }
+
+    .social-icons a:nth-child(4) {
+      background: #0088cc;
+    }
+
+    .social-icons a:nth-child(5) {
+      background: #1DA1F2;
+    }
+
+    .social-icons a:nth-child(6) {
+      background: #02bd37;
+    }
+
+    .social-icons a:hover {
+      opacity: 0.9;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
 </head>
+
 <body>
-   <div class="container">
-     <div class="Contact">
-            <h1>Get In Touch</h1>
-                <p class="intro-text">We'll create high-quality linkable content and build at least 40 high-authority links to each asset, paving the way for you to grow your rankings and improve brand visibility.</p>
-         </div>
-   </div>
-    <section id="contact">
-         
-        <div class="contact-container">
-            <div class="contact-info">
-                <div class="contact-details">
-                    <h2>Contact Information</h2>
-                    <p class="info-text">We'll create high-quality linkable content and build at least 40 high-authority links</p>
-                    
-                    <div class="contact-method">
-                    
-                        <div class="details">
-                            <p>+880 1779 171 686</p>
-                            <p>+888 7836 3886</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-method">
-                        <div class="details">
-                            <p>Support@uprangly.com</p>
-                        </div>
-                    </div>
-                </div>
+
+  <section id="contact">
+    <h1>Get In Touch</h1>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-details">
+          <h2>Contact Information</h2>
+          <p class="info-text">We'll create high-quality linkable content and build at least 40 high-authority links</p>
+
+          <div class="contact-method">
+            <div class="details">
+              <p> <i class="fa-solid fa-phone"></i>+880 1779 171 686</p>
+              <p> <i class="fa-solid fa-envelope"></i>Support@uprangly.com</p>
+              <p> <i class="fa-solid fa-location-dot"></i>Casablanca maroc</p>
+              <p>Social media</p>
+              <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
             </div>
-            
-            <div class="contact-form">
-                <h2>Send Message</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="subject">Votre Subject</label>
-                        <input type="text" id="subject" name="subject" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Votre Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    
-                    <button type="submit" class="submit-btn">Envoyer</button>
-                </form>
-            </div>
+          </div>
+
+
         </div>
-    </section>
-    <div class="map-container">
-    
+      </div>
+
+      <div class="contact-form">
+        <h2>Send Message</h2>
+        <form>
+          <div class="form-group">
+            <label for="subject">Votre Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Votre Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Envoyer</button>
+        </form>
+      </div>
     </div>
+  </section>
+  <div class="map-container">
 
-     <footer>
-        <span>© 2025 Hackeuse-Digital. All rights reserved.</span>
-    </footer>
+  </div>
 
-    <script src="script.js"></script>
+  <footer>
+    <span>© 2025 Hackeuse-Digital. All rights reserved.</span>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
