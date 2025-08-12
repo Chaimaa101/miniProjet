@@ -376,9 +376,6 @@ p {
     height: 80vh;
     margin: 20px auto ;
     border-radius: 12px;
-    background-image: url("./assets/map.png");
-    background-repeat: no-repeat;
-    object-fit: cover;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 

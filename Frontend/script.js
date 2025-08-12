@@ -6,9 +6,9 @@ navBar.innerHTML = `
   <div class="items">
             <ul >
             <li><a href="home.html"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a href="#about"><i class="fa-solid fa-question"></i> About Us</a></li>
-            <li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
             <li><a href="programs.html"><i class="fa-solid fa-list-ul"></i> Programs</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            <li><a href="#about"></i> About Us</a></li>
         </ul>
         </div>
 `
