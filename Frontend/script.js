@@ -24,6 +24,9 @@ const btnShowForm = document.getElementById("show-form");
         }
     });
 
+    
+
+
 const programs_container = document.getElementById("programs-container")
 const affichePrograms = () => {
     programs_container.innerHTML = ``;
@@ -33,9 +36,7 @@ const affichePrograms = () => {
                 const card = document.createElement("div");
                 card.classList.add("value-card");
 
-                const skillsList = Array.isArray(program.skills)
-                    ? program.skills.map(comp => `<li>${comp}</li>`).join("")
-                    : "<li>No skills available</li>";
+                const skillsList = program.skills.map(comp => `<li>${comp}</li>`).join("")
 
                 card.innerHTML = `
                     <h3>${program.title}</h3>
@@ -45,10 +46,15 @@ const affichePrograms = () => {
                     <ul class="skills">
                         ${skillsList}
                     </ul>
-                    <button class="delete" onClick="supprimerProgram('${program.id}')"><i class="fa-solid fa-trash"></i></button>
+                    <button class="delete" ><i class="fa-solid fa-trash"></i></button>
                 `;
                 programs_container.prepend(card);
-
+                
+const btn = document.querySelector('.delete')
+btn.addEventListener('hover' , () =>{
+    btn.style.backgroundColor= "green"
+})
+console.log(btn)
             });
         })
         .catch(err => {
@@ -58,7 +64,7 @@ const affichePrograms = () => {
 
 
 supprimerProgram = function (id) {
-    if (confirm("Are you sure you want to delete this program? This action cannot be undone.")) {
+  
         axios.delete(`http://localhost:4000/programs/${id}`)
             .then(res => {
                 affichePrograms();
@@ -66,18 +72,18 @@ supprimerProgram = function (id) {
             .catch(err => {
                 console.error(err);
             });
-    }
+    
 }
-
+ 
 const form = document.getElementById('program-form');
 form.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    const title = document.getElementById("title").value.trim();
-    const description = document.getElementById("description").value.trim();
-    const duration = document.getElementById("duration").value.trim();
-    const skillsInput = document.getElementById("skills").value.trim();
-    const skillsArray = skillsInput.split(",").map(skill => skill.trim());
+    const title = document.getElementById("title").value;
+    const description = document.getElementById("description").value;
+    const duration = document.getElementById("duration").value;
+    const skillsInput = document.getElementById("skills").value;
+    const skillsArray = skillsInput.split(",").map(skill => skill);
 
     axios.post("http://localhost:4000/programs", {
         title: title,
@@ -97,3 +103,5 @@ form.addEventListener("submit", function (event) {
 });
 
 affichePrograms();
+
+
