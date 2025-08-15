@@ -46,15 +46,10 @@ const affichePrograms = () => {
                     <ul class="skills">
                         ${skillsList}
                     </ul>
-                    <button class="delete" ><i class="fa-solid fa-trash"></i></button>
+                    <button class="delete" onClick = "supprimerProgram('${program.id}')"><i class="fa-solid fa-trash"></i></button>
                 `;
                 programs_container.prepend(card);
                 
-const btn = document.querySelector('.delete')
-btn.addEventListener('hover' , () =>{
-    btn.style.backgroundColor= "green"
-})
-console.log(btn)
             });
         })
         .catch(err => {
@@ -103,5 +98,3 @@ form.addEventListener("submit", function (event) {
 });
 
 affichePrograms();
-
-
